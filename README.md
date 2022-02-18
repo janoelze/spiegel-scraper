@@ -1,1 +1,1 @@
-# usgs-scraper
+# spiegel-scraper
