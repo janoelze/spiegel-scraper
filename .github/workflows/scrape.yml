@@ -16,7 +16,7 @@ jobs:
         fetch-depth: 0
     - name: Fetch latest data
       run: |-
-        curl "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson" | jq > usgs.json
+        curl "https://www.spiegel.de" | jq > usgs.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
